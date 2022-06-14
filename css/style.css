@@ -1,0 +1,78 @@
+@font-face {
+    font-family: KdamTHmor;
+    src: url(../KdamThmorPro-Regular.ttf);
+}
+
+@font-face {
+    font-family: Kanit;
+    src: url("/Kanit-Medium.ttf");
+}
+
+body{
+    background-image: url("../Background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menuBG {
+    top: 0px;
+    position: fixed;
+    opacity: 60%;
+    margin: -50px;
+    width: 90vw;
+    height: 
+    100px;
+    display: inline-block;
+    background: black;    
+    transform: skewX(-45deg);
+    }
+
+.menuButton{
+    margin: 60px;
+    left: 50%;
+    font-family: KdamTHmor;
+    position: fixed;
+    text-decoration: none;
+}
+.menuHover{
+    color: rgb(34, 102, 102);
+    text-decoration: none;
+    z-index: 1000;
+    position: absolute;
+    text-align: center;
+    height: 5vh;
+}
+.menuList{
+    font-family: Kanit;
+    margin-left: -11vh;
+    display: flex;
+    justify-content:space-around;
+    list-style-type:none;
+}
+.menuDiv{
+    width: 80.50vw;
+}
+#mainTitle{
+    position: fixed;
+    top: 20vh;
+    right: 35vw;
+    text-align: center;
+    font-family: KdamTHmor;
+    font-size: 8rem;
+    color: white;
+    text-decoration: underline;
+}
+#title{
+    margin: 0px;
+    text-align: center;
+    font-size: 1rem;
+    font-family: Kanit;
+    color: #2b91b8;
+    position: fixed;
+    top: 2vh;
+    right: -10px;
+    width: 16vw;
+}
+.titleDiv{
+    width: 10vw;
+    position: fixed;
+}
