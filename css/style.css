@@ -18,11 +18,11 @@ body{
     position: fixed;
     opacity: 60%;
     margin: -50px;
-    width: 90vw;
+    width: 89vw;
     height: 
     100px;
     display: inline-block;
-    background: black;    
+    background: white;    
     transform: skewX(-45deg);
     }
 
@@ -37,9 +37,10 @@ body{
     color: rgb(34, 102, 102);
     text-decoration: none;
     z-index: 1000;
-    position: absolute;
-    text-align: center;
+    position: fixed;
+    width: 22.25vw;
     height: 5vh;
+    text-align: center;
 }
 .menuList{
     font-family: Kanit;
@@ -49,17 +50,10 @@ body{
     list-style-type:none;
 }
 .menuDiv{
-    width: 80.50vw;
-}
-#mainTitle{
-    position: fixed;
-    top: 20vh;
-    right: 35vw;
-    text-align: center;
-    font-family: KdamTHmor;
-    font-size: 8rem;
-    color: white;
-    text-decoration: underline;
+    left: -5vw;
+    top: 0px;
+position: fixed;
+    width: 80vw;
 }
 #title{
     margin: 0px;
@@ -70,9 +64,40 @@ body{
     position: fixed;
     top: 2vh;
     right: -10px;
-    width: 16vw;
+    width: 16vw;    
+    text-decoration: none;
 }
 .titleDiv{
     width: 10vw;
     position: fixed;
+}
+#canvas{
+    position: absolute;
+    background-image: url("../Background.jpg");
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+#title1{
+    margin: 0px;
+    position: absolute;
+    font-family: KdamTHmor;
+    font-size: 8rem;
+    color: white;
+    /* text-decoration: underline; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 120px;
+    white-space: nowrap;
+    border-top: 10px solid white;
+}
+
+#title1::before{
+        position: absolute;
+    bottom: -70px;
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
 }
