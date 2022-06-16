@@ -1,5 +1,5 @@
 body{
-    background-image: url("../Background2.png");
+    background-image: url("../add2858892_50150062_tableau-periodique-fin.jpg    ");
     background-size: cover;
 }
 @font-face {
@@ -64,4 +64,26 @@ body{
     right: -10px;
     width: 16vw;
     text-decoration: none;
+}
+section{
+    height: 100%;
+}
+.ul{
+    font-family: Kanit;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+    align-items: middle;
+    place-items: center ;
+    height: 100vh;
+    font-size: 3rem;
+    color: #b00c0c;
+    z-index: -111;
+}
+.deep{
+    position: absolute;
+    top: 500rem;
 }

@@ -22,7 +22,40 @@
         <div class="titleDiv">
         <a id="title" href="./index.html">Résumé de notes de cours</a>
         </div>
-        
-        </header>
+
+        <section>
+<ul class="ul">
+    <li class="scroll" data-rate="-0.5" data-direction="vertical">Pro</li>
+    <li>pri</li>
+    <li class="scroll" data-rateY="" data-rateX="0.5" data-direction="horizontal">été</li>
+</ul>
+        </section>
+<script>
+window.addEventListener("scroll", function(e){
+
+const target = document.querySelectorAll(".scroll");
+
+var index = 0, length = target.length;
+
+for(index; index < length; index++){
+    var pos = window.pageYOffset * target[index].dataset.rate;
+
+if(target[index].dataset.direction === "vertical"){
+    target[index].style.transform = "translate3d(0px, "+pos+"px, 0px)";
+} else {
+    var posX = window.pageYOffset * target[index].dataset.ratex;
+    var posY = window.pageYOffset * target[index].dataset.ratey;
+
+    target[index].style.transform = "translate3d("+posX+"px, "+posY+"px, 0px)";
+}
+}
+});
+    </script>
+</header>
+
+<h2>La flottabilité</h2>
+<h2>Propriété et propriété caractéristique</h2>
+<h2>Substance pure</h2>
+<h2>Tableau périodique</h2>
 </body>
 </html>

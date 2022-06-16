@@ -83,7 +83,7 @@ position: fixed;
     width: 10vw;
     position: fixed;
 }
-#titleM{
+/* #titleM{
 position: relative;
 font-family: NotoSansMono;
 font-size: 7rem;
@@ -111,4 +111,33 @@ padding: 10px;
     margin: auto;
     width: 50%;
     padding: 10px;
+} */
+
+#canvas{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+#titleMC{
+    right: 10vw;
+    top: 20vh;
+    margin: 0px;
+    position: absolute;
+    font-family: KdamTHmor;
+    font-size: 5.5rem;
+    color: white;
+    /* text-decoration: underline; */
+    line-height: 120px;
+    white-space: nowrap;
+    border-top: 10px solid white;
+}
+.deep{
+    position: absolute;
+    top: 1000rem;
+}
+.subtitle{
+    position: relative;
+    top: 37rem;
 }

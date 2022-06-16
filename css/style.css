@@ -52,7 +52,7 @@ body{
 .menuDiv{
     left: -5vw;
     top: 0px;
-position: fixed;
+    position: fixed;
     width: 80vw;
 }
 #title{
@@ -95,7 +95,7 @@ position: fixed;
 }
 
 #title1::before{
-        position: absolute;
+    position: absolute;
     bottom: -70px;
     font-size: 40px;
     text-align: center;
