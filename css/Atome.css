@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#canvas1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: red;
+}
+@font-face {
+    font-family: KdamTHmor;
+    src: url(../KdamThmorPro-Regular.ttf);
+}
+
+@font-face {
+    font-family: Kanit;
+    src: url("/Kanit-Medium.ttf");
+}
+.menuBG {
+    top: 0px;
+    position: fixed;
+    opacity: 60%;
+    margin: -50px;
+    width: 89vw;
+    height: 
+    100px;
+    display: inline-block;
+    background: white;    
+    transform: skewX(-45deg);
+    }
+
+.menuButton{
+    margin: 60px;
+    left: 50%;
+    font-family: KdamTHmor;
+    position: fixed;
+    text-decoration: none;
+}
+.menuHover{
+    color: rgb(34, 102, 102);
+    text-decoration: none;
+    z-index: 1000;
+    position: fixed;
+    width: 22.25vw;
+    height: 5vh;
+    text-align: center;
+}
+.menuList{
+    font-family: Kanit;
+    margin-left: -11vh;
+    display: flex;
+    justify-content:space-around;
+    list-style-type:none;
+}
+.menuDiv{
+    left: -5vw;
+    top: 0px;
+    position: fixed;
+    width: 80vw;
+}
+#title{
+    margin: 0px;
+    text-align: center;
+    font-size: 1rem;
+    font-family: Kanit;
+    color: #2b91b8;
+    position: fixed;
+    top: 2vh;
+    right: -10px;
+    width: 16vw;
+    text-decoration: none;
+}
+.titleDiv{
+    width: 10vw;
+    position: fixed;
+}
+#titleA{
+    right: 10vw;
+    top: 20vh;
+    margin: 0px;
+    position: absolute;
+    font-family: KdamTHmor;
+    font-size: 5.5rem;
+    color: white;
+    /* text-decoration: underline; */
+    line-height: 120px;
+    white-space: nowrap;
+    border-top: 10px solid white;
+}

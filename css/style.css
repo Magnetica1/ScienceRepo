@@ -101,3 +101,19 @@ body{
     text-align: center;
     width: 100%;
 }
+#title{
+    margin: 0px;
+    text-align: center;
+    font-size: 1rem;
+    font-family: Kanit;
+    color: #2b91b8;
+    position: fixed;
+    top: 2vh;
+    right: -10px;
+    width: 16vw;
+    text-decoration: none;
+}
+.titleDiv{
+    width: 10vw;
+    position: fixed;
+}
