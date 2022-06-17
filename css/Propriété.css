@@ -1,6 +1,6 @@
 body{
-    background-image: url("../add2858892_50150062_tableau-periodique-fin.jpg    ");
-    background-size: cover;
+background: #00004c; 
+   background-size: cover;
 }
 @font-face {
     font-family: KdamTHmor;
@@ -79,11 +79,49 @@ section{
     align-items: middle;
     place-items: center ;
     height: 100vh;
-    font-size: 3rem;
+    font-size: 5.5rem;
     color: #b00c0c;
     z-index: -111;
 }
-.deep{
+#canvas1{
     position: absolute;
-    top: 500rem;
+    background: linear-gradient(to left, black, darkblue);
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100vh;
+}
+h2{
+    top: 110vh;
+    font-family: Kanit ;
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+p{
+    position: relative;
+    font-size: 1.3rem;
+    font-family: Kanit;
+    color: #919191;
+    text-align: center;
+}
+.listP{
+    position: relative;
+    font-size: 1.15rem;
+    font-family: Kanit;
+    color: #c0c0c0;
+}
+.subsubTitle{
+    position: relative;
+    font-size: 1.5rem;
+    font-family: Kanit;
+    color: #c0c0c0;
+}
+.listTP{
+    position: relative;
+    font-size: 1.15rem;
+    font-family: Kanit;
+    color: #c0c0c0;
 }

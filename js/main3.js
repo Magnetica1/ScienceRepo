@@ -9,7 +9,7 @@ let particlesArray;
 let mouse = {
     x: null,
     y: null,
-    radius: (canvas.height/75) *(canvas.width/75),
+    radius: (canvas.height/80) *(canvas.width/80),
 }
 
 window.addEventListener('mousemove', function(event) {
@@ -99,7 +99,7 @@ function connect() {
     
     if(distance < (canvas.height/7) *(canvas.width/7)) {
     
-        opacityValue = 1 - (distance/30000);        
+        opacityValue = 1 - (distance/9000);        
         ctx.strokeStyle = "rgba(225, 225, 225," + opacityValue +")";
         ctx.lineWidth = 1;
         ctx.beginPath();

@@ -1,5 +1,5 @@
 body{
-    background-image: url(../img2.jpg);
+background: #00112b;
     background-size: cover;
 }
 @font-face {
@@ -79,10 +79,6 @@ position: fixed;
     width: 16vw;
     text-decoration: none;
 }
-.titleDiv{
-    width: 10vw;
-    position: fixed;
-}
 /* #titleM{
 position: relative;
 font-family: NotoSansMono;
@@ -118,7 +114,7 @@ padding: 10px;
     width: 100%;
     top: 0;
     left: 0;
-    height: 100%;
+    height: 100vh;
 }
 #titleMC{
     right: 10vw;
@@ -139,5 +135,52 @@ padding: 10px;
 }
 .subtitle{
     position: relative;
-    top: 37rem;
+    top: 110vh;
+    font-family: Kanit  ;
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+h2{
+    top: 110vh;
+    font-family: Kanit ;
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+p{
+    position: relative;
+    top: 110vh;
+    font-family: Kanit  ;
+    font-size: 1.3rem;
+    color: #c0c0c0;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+.listMH{
+    position: relative;
+    top: 110vh;
+    font-family: Kanit ;
+    font-size: 1.3rem;
+    color: #c0c0c0;
+    margin: 0px;
+    padding: 0px;
+}
+h3{
+    top: 110vh;
+    position: relative;
+    font-size: 1.5rem;
+    font-family: Kanit;
+    color: #c0c0c0;
+}
+.vid{
+    position: relative;
+    top: 110vh;
+    margin-left: 50vw;
+    transform: translate(-50%);
 }
