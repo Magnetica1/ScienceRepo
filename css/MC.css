@@ -184,3 +184,11 @@ h3{
     margin-left: 50vw;
     transform: translate(-50%);
 }
+img{
+    position: relative;
+    top: 110vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
